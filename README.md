@@ -40,7 +40,7 @@ The AI ChatBot uses a combination of techniques to understand and respond to use
 
 ### Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ai-chatbot.git
+git clone https://github.com/flowstxte/ai-chatbot.git
 ```
 
 ### Navigate to the project directory:
