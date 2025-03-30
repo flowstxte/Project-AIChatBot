@@ -40,12 +40,12 @@ The AI ChatBot uses a combination of techniques to understand and respond to use
 
 ### Clone the repository:
 ```bash
-git clone https://github.com/flowstxte/ai-chatbot.git
+git clone https://github.com/flowstxte/Project-AIChatBot.git
 ```
 
 ### Navigate to the project directory:
 ```bash
-cd ai-chatbot
+cd Project-AIChatBot
 ```
 
 ### Install the required dependencies:
