@@ -8,7 +8,6 @@ Works seamlessly on desktop & mobile.
   <img src="https://raw.githubusercontent.com/flowstxte/Project-AIChatBot/refs/heads/main/ss1.png" width="45%" />
   <img src="https://raw.githubusercontent.com/flowstxte/Project-AIChatBot/refs/heads/main/ss2.png" width="45%" />
 </p>
----
 
 ## Features
 - Knowledge answers (Wikipedia + DuckDuckGo)  
