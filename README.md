@@ -1,81 +1,67 @@
-# Project-AIChatBot
 
-A web-based intelligent chatbot application built with Flask that provides knowledge retrieval and calculation capabilities.
+# AI ChatBot
+
+A **Flask-based intelligent chatbot** that can retrieve knowledge, solve math problems, analyze sentiment, and chat in real-time.  
+Works seamlessly on desktop & mobile.
+
+![Screenshot](https://raw.githubusercontent.com/flowstxte/Project-AIChatBot/refs/heads/main/ss1.png)  
+![Screenshot](https://raw.githubusercontent.com/flowstxte/Project-AIChatBot/refs/heads/main/ss2.png)
+
+---
 
 ## Features
-- **Knowledge Retrieval**: Answers questions about various topics using Wikipedia and DuckDuckGo.
-- **Mathematical Calculations**: Solves basic arithmetic operations.
-- **Natural Language Processing**: Analyzes sentiment and responds accordingly.
-- **Responsive Design**: Works seamlessly on both desktop and mobile devices.
-- **Real-time Interaction**: Provides immediate responses with typing indicators.
+- Knowledge answers (Wikipedia + DuckDuckGo)  
+- Math calculations  
+- Sentiment-aware responses (TextBlob)  
+- Responsive UI with animations  
+- Instant replies with typing indicators  
 
-## Technical Stack
-- **Backend**: Python with Flask
-- **Frontend**: HTML, CSS, JavaScript (jQuery)
-- **NLP Processing**: TextBlob for sentiment analysis
-- **Knowledge Sources**: Wikipedia API and DuckDuckGo API
-- **Styling**: CSS with animations and responsive design
+---
+
+## Tech Stack
+<p>
+  <img src="https://skillicons.dev/icons?i=python,flask,html,css,js,jquery" />
+</p>
+
+---
 
 ## How It Works
-The AI ChatBot uses a combination of techniques to understand and respond to user queries:
+1. Detects query type (info or math)  
+2. Fetches answers from Wikipedia → fallback DuckDuckGo  
+3. Solves arithmetic expressions  
+4. Analyzes sentiment & adjusts responses  
+5. Keeps simple conversation context  
 
-1. **Query Classification**: Identifies if the user is asking a knowledge question or requesting a calculation.
-2. **Knowledge Retrieval**: For informational queries, it searches Wikipedia first, then falls back to DuckDuckGo.
-3. **Mathematical Processing**: Parses and evaluates mathematical expressions.
-4. **Sentiment Analysis**: Detects the emotional tone of messages and responds appropriately.
-5. **Context Management**: Maintains conversation history for more coherent interactions.
+---
 
-## Usage Examples
-### Knowledge Queries
-- "What is quantum physics?"
-- "Tell me about the Eiffel Tower"
-- "Who is Marie Curie?"
+## Setup
 
-### Mathematical Operations
-- "What is 125 + 37?"
-- "Calculate 15 times 8"
-- "Solve 144 divided by 12"
-
-## Installation
-
-### Clone the repository:
 ```bash
+# Clone repo
 git clone https://github.com/flowstxte/Project-AIChatBot.git
-```
-
-### Navigate to the project directory:
-```bash
 cd Project-AIChatBot
-```
 
-### Install the required dependencies:
-```bash
+# Install dependencies
 pip install flask textblob wikipedia requests beautifulsoup4
-```
 
-### Run the application:
-```bash
+# Run
 python app.py
-```
+````
 
-### Open your browser and navigate to:
-```
-http://localhost:5000
-```
+Open: `http://localhost:5000`
 
-## Future Enhancements
-- Voice input and output capabilities
-- Integration with more knowledge sources
-- Support for more complex mathematical operations
-- User authentication and personalized responses
-- Multi-language support
+---
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Examples
 
-## Acknowledgments
-- **Wikipedia API** for knowledge retrieval
-- **DuckDuckGo API** for supplementary information
-- **TextBlob** for natural language processing capabilities
+* **Knowledge** → "What is quantum physics?", "Who is Marie Curie?"
+* **Math** → "125 + 37", "15 × 8"
 
-Feel free to contribute to this project by submitting pull requests or opening issues for any bugs or feature requests.
+---
+
+## Credits
+
+* Wikipedia API, DuckDuckGo API
+* TextBlob for NLP
+
+Contributions welcome!
