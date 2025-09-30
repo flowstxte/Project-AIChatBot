@@ -4,9 +4,10 @@
 A **Flask-based intelligent chatbot** that can retrieve knowledge, solve math problems, analyze sentiment, and chat in real-time.  
 Works seamlessly on desktop & mobile.
 
-![Screenshot](https://raw.githubusercontent.com/flowstxte/Project-AIChatBot/refs/heads/main/ss1.png)  
-![Screenshot](https://raw.githubusercontent.com/flowstxte/Project-AIChatBot/refs/heads/main/ss2.png)
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/flowstxte/Project-AIChatBot/refs/heads/main/ss1.png" width="45%" />
+  <img src="https://raw.githubusercontent.com/flowstxte/Project-AIChatBot/refs/heads/main/ss2.png" width="45%" />
+</p>
 ---
 
 ## Features
